@@ -35,7 +35,7 @@
       {
         "language": "source.css.styled",
         "scopeName": "source.css.styled",
-        "path": "./syntaxes/css.styled.json"
+        "path": "./syntaxes/MySQL.tmLanguage"
       },
       {
         "injectTo": [
@@ -49,7 +49,6 @@
         "scopeName": "styled",
         "path": "./syntaxes/styled-components.json",
         "embeddedLanguages": {
-          "source.css.scss": "css",
           "meta.embedded.line.ts": "typescript"
         }
       }
