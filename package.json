@@ -1,14 +1,14 @@
 {
-  "name": "vscode-styled-components",
-  "displayName": "vscode-styled-components",
-  "description": "Syntax highlighting for styled-components",
+  "name": "vscode-mysql-tagged-templates",
+  "displayName": "vscode-mysql-tagged-templates",
+  "description": "Syntax highlighting for inline MySQL in JavaScript tagged templates",
   "version": "0.0.26",
-  "publisher": "jpoissonnier",
+  "publisher": "ersel",
   "icon": "logo.png",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/styled-components/vscode-styled-components.git"
+    "url": "https://github.com/ersel/vscode-styled-components"
   },
   "engines": {
     "vscode": "^1.5.0"

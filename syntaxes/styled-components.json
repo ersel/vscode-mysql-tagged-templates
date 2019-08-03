@@ -4,31 +4,25 @@
   "patterns": [
     {
       "contentName": "source.css.scss",
-      "begin": "(?x)(\\b(?:\\w+\\.)*(?:html|raw|sql|submitQuery)\\s*)(`)",
+      "begin": "(sql)(`)",
+      
       "beginCaptures": {
         "1": {
-          "patterns": [
-            {
-              "include": "source.ts#expression"
-            }
-          ]
-        },
-        "2": {
           "name": "entity.name.function.tagged-template.js"
         },
-        "3": {
-          "name": "punctuation.definition.string.template.begin.js string.template.js"
+        "2": {
+          "name": "punctuation.definition.string.begin.sql"
         }
       },
       "end": "`",
       "endCaptures": {
         "0": {
-          "name": "punctuation.definition.string.template.end.js string.template.js"
+          "name": "punctuation.definition.string.end.sql"
         }
       },
       "patterns": [
         {
-          "include": "source.css.styled"
+          "include": "source.sql"
         }
       ]
     },
